@@ -1,10 +1,9 @@
 [package]
-name = "xswezan/procast"
-version = "0.1.0"
+name = "xswezan/debuggizmos"
+version = "1.0.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
 Janitor = "howmanysmall/janitor@1.15.1"
-Promise = "evaera/promise@4.0.0"
-DebugGizmos = "xswezan/debuggizmos@1.0.0"
+# Promise = "evaera/promise@4.0.0"

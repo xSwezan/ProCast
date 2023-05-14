@@ -13,6 +13,11 @@ version = "1.15.1"
 dependencies = []
 
 [[package]]
-name = "xswezan/modulename"
+name = "xswezan/debuggizmos"
+version = "1.0.0"
+dependencies = [["Janitor", "howmanysmall/janitor@1.15.1"]]
+
+[[package]]
+name = "xswezan/procast"
 version = "0.1.0"
-dependencies = [["Janitor", "howmanysmall/janitor@1.15.1"], ["Promise", "evaera/promise@4.0.0"]]
+dependencies = [["DebugGizmos", "xswezan/debuggizmos@1.0.0"], ["Janitor", "howmanysmall/janitor@1.15.1"], ["Promise", "evaera/promise@4.0.0"]]
